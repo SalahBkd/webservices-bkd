@@ -6,8 +6,10 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import javax.persistence.*;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 
+//@XmlRootElement (in case we are using MediaType.XML)
 @Entity
 @Data
 @NoArgsConstructor @AllArgsConstructor @ToString

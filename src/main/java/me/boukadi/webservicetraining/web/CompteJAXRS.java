@@ -22,7 +22,7 @@ public class CompteJAXRS {
 
     @Path("/comptes")
     @GET
-    @Produces({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON/*, MediaType.APPLICATION_XML*/})
     public List<Compte> getAll() {
         return compteRepository.findAll();
     }
