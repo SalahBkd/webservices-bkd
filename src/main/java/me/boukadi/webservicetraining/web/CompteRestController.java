@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-@RestController
+//@RestController
 @RequestMapping("/bank")
 public class CompteRestController {
     @Autowired

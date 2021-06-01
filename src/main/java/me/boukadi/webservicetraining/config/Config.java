@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Config {
 
-    @Bean
+    //@Bean
     public ResourceConfig resourceConfig() {
         ResourceConfig jerseyServlet = new ResourceConfig();
         jerseyServlet.register(CompteJAXRS.class);
